@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\dev\android\RangeBarDemo\library\src\main\res"/><source path="C:\dev\android\RangeBarDemo\library\build\generated\res\rs\release"/><source path="C:\dev\android\RangeBarDemo\library\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="C:\dev\android\RangeBarDemo\library\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\dev\android\RangeBarDemo\library\src\main\res"><file path="C:\dev\android\RangeBarDemo\library\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="RangeBar">
+        <!-- Optional indicator name -->
+        <attr format="string" name="indicatorName"/>
+        <!-- Optional minimum value -->
+        <attr format="float" name="minimum"/>
+        <!-- Optional maximum value -->
+        <attr format="float" name="maximum"/>
+        <!-- Allow optional setting of padding the XML layout -->
+        <attr format="integer" name="outerPadding"/>
+        <!-- Allow optional setting of padding the inner RangeBar -->
+        <attr format="integer" name="innerPadding"/>
+        <!-- Allow optional setting for RangeBar border radius -->
+        <attr format="float" name="borderRadius"/>
+        <!-- Provide an Orientation parameter as an enum ** Not implemented yet! -->
+        <attr format="enum" name="orientation">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+        <!-- Allow to override the negative range color of the RangeBar -->
+        <attr format="color" name="colorNegative"/>
+        <!-- Allow to override the positive range color of the RangeBar -->
+        <attr format="color" name="colorPositive"/>
+        <!-- Allow to override the background color of the XML layout -->
+        <attr format="color" name="colorBackground"/>
+        <!-- Allow to override the text color of the XML layout -->
+        <attr format="color" name="colorText"/>
+        <!-- Allow to override the middle separator line color of the RangeBar -->
+        <attr format="color" name="colorLine"/>
+    </declare-styleable></file><file path="C:\dev\android\RangeBarDemo\library\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">RangeBar</string></file></source><source path="C:\dev\android\RangeBarDemo\library\build\generated\res\rs\release"/><source path="C:\dev\android\RangeBarDemo\library\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="C:\dev\android\RangeBarDemo\library\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="RangeBar"><attr format="string" name="indicatorName"/><attr format="float" name="minimum"/><attr format="float" name="maximum"/><attr format="integer" name="outerPadding"/><attr format="integer" name="innerPadding"/><attr format="float" name="borderRadius"/><attr format="enum" name="orientation"><enum name="vertical" value="0"/><enum name="horizontal" value="1"/></attr><attr format="color" name="colorNegative"/><attr format="color" name="colorPositive"/><attr format="color" name="colorBackground"/><attr format="color" name="colorText"/><attr format="color" name="colorLine"/></declare-styleable></configuration></mergedItems></merger>

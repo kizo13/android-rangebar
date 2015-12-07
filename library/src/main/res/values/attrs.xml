@@ -1,0 +1,31 @@
+<resources>
+    <declare-styleable name="RangeBar">
+        <!-- Optional indicator name -->
+        <attr name="indicatorName" format="string"/>
+        <!-- Optional minimum value -->
+        <attr name="minimum" format="float"/>
+        <!-- Optional maximum value -->
+        <attr name="maximum" format="float"/>
+        <!-- Allow optional setting of padding the XML layout -->
+        <attr name="outerPadding" format="integer"/>
+        <!-- Allow optional setting of padding the inner RangeBar -->
+        <attr name="innerPadding" format="integer"/>
+        <!-- Allow optional setting for RangeBar border radius -->
+        <attr name="borderRadius" format="float"/>
+        <!-- Provide an Orientation parameter as an enum ** Not implemented yet! -->
+        <attr name="orientation" format="enum">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+        <!-- Allow to override the negative range color of the RangeBar -->
+        <attr name="colorNegative" format="color" />
+        <!-- Allow to override the positive range color of the RangeBar -->
+        <attr name="colorPositive" format="color" />
+        <!-- Allow to override the background color of the XML layout -->
+        <attr name="colorBackground" format="color" />
+        <!-- Allow to override the text color of the XML layout -->
+        <attr name="colorText" format="color" />
+        <!-- Allow to override the middle separator line color of the RangeBar -->
+        <attr name="colorLine" format="color" />
+    </declare-styleable>
+</resources>

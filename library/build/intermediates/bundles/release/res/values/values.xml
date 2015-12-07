@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RangeBar"><attr format="string" name="indicatorName"/><attr format="float" name="minimum"/><attr format="float" name="maximum"/><attr format="integer" name="outerPadding"/><attr format="integer" name="innerPadding"/><attr format="float" name="borderRadius"/><attr format="enum" name="orientation"><enum name="vertical" value="0"/><enum name="horizontal" value="1"/></attr><attr format="color" name="colorNegative"/><attr format="color" name="colorPositive"/><attr format="color" name="colorBackground"/><attr format="color" name="colorText"/><attr format="color" name="colorLine"/></declare-styleable>
+    <string name="app_name">RangeBar</string>
+</resources>
